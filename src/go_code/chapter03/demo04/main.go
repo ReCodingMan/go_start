@@ -9,5 +9,5 @@ func main() {
 	i = 50
 	fmt.Println("i=", i)
 	//i = 1.2 类型错误
-	var i int = 59 
+	//var i int = 59 重复定义
 }

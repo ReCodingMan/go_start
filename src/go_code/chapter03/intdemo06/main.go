@@ -42,8 +42,13 @@ func main() {
 	fmt.Printf("c1=%c", c1)
 	fmt.Printf("c2=%c", c2)
 
+	//boolean类型
 	var b = false
 	fmt.Println("b=", b)
 	fmt.Println("b占用空间= ", unsafe.Sizeof(b))
+
+	//string类型
+	var address string = "等放假等放假 100 dfkfalfl";
+	fmt.Println(address)
 
 }

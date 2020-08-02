@@ -42,4 +42,8 @@ func main() {
 	fmt.Printf("c1=%c", c1)
 	fmt.Printf("c2=%c", c2)
 
+	var b = false
+	fmt.Println("b=", b)
+	fmt.Println("b占用空间= ", unsafe.Sizeof(b))
+
 }

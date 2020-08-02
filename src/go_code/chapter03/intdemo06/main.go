@@ -32,4 +32,14 @@ func main() {
 	var num4 float64 = -123.0000901
 	fmt.Println("num3=",num3, "num4=",num4)
 
+	var c1 byte = 'a'
+	var c2 byte = '0'
+
+	fmt.Println("c1=", c1)
+	fmt.Println("c2=", c2)
+
+	//如果需要输出字符，需要格式化
+	fmt.Printf("c1=%c", c1)
+	fmt.Printf("c2=%c", c2)
+
 }

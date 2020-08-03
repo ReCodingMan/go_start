@@ -66,5 +66,5 @@ func main() {
 	var str4 = "hello" + "hello" + 
 	"hello" + 
 	"hello"
-	fmt.Println(str4)
+	fmt.Println(str4)	
 }

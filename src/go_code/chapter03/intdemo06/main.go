@@ -51,4 +51,14 @@ func main() {
 	var address string = "等放假等放假 100 dfkfalfl";
 	fmt.Println(address)
 
+	//改变字符串
+	var str = "hello"
+	//str[0] = 'a'
+	fmt.Println(str)
+
+	//反引号
+	str2 := `短发回复哈哈\n回复回电话`
+	str3 := "dffafdf\ndfafdfafa"
+	fmt.Println(str2)
+	fmt.Println(str3)
 }

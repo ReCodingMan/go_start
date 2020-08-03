@@ -11,4 +11,9 @@ func main() {
 	var n3 int64 = int64(i)
 
 	fmt.Printf("n1=%v i=%v n2=%v n3=%v", n1, i, n2, n3)
+
+	//转换结果会溢出处理，和我们希望的不一样
+	var num1 int64 = 9999999
+	var num2 int8 = int8(num1)
+	fmt.Printf("num2=", num2)
 }

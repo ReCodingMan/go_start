@@ -61,4 +61,10 @@ func main() {
 	str3 := "dffafdf\ndfafdfafa"
 	fmt.Println(str2)
 	fmt.Println(str3)
+
+	//多行换行
+	var str4 = "hello" + "hello" + 
+	"hello" + 
+	"hello"
+	fmt.Println(str4)
 }

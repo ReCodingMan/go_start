@@ -3,11 +3,13 @@ import (
 	"fmt"
 	_ "unsafe"
 	"strconv"
+	"src/go_code/project02/transtype"
 )
 
 // 基本类型转string使用
 func main() {
-	
+	fmt.Println(exec.HeroName)
+
 	var num1 int = 99
 	var num2 float64 = 23.456
 	var b bool = true

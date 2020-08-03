@@ -1,5 +1,7 @@
-package main
+package transtype
 import "fmt"
+
+var HeroName string = "cc"
 
 func main() {
 	var n1 int32 = 12

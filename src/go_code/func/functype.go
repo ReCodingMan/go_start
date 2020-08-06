@@ -23,6 +23,18 @@ func getSumAndSub(n1 int, n2 int) (sum int, sub int){
 	return
 }
 
+//可变参数，求1到多个参数的值
+func sum(n1 int, args... int) int {
+	sum := n1
+
+	for i:=0; i<len(args); i++ {
+		sum += args[i] //args[0] 表示取出args切片的第一个元素的值，其他依次类推
+	}
+
+	return sum
+}
+
+
 func main() {
 
 	//类型不是一个
@@ -41,4 +53,9 @@ func main() {
 	//求和和差
 	a, b := getSumAndSub(1, 2)
 	fmt.Println("a=", a, "b=", b)
+
+	//可变参数的使用
+	res4 := sum(4, 100, -1, 2)
+	fmt.Println("res4=", res4)
+
 }

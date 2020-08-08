@@ -60,4 +60,19 @@ func main() {
 	index := strings.Index("NLT_Abc", "Abc")
 	fmt.Printf("index=%v\n", index)
 
+	//最后一次出现位置
+	index = strings.LastIndex("go golang", "go")
+	fmt.Printf("index=%v\n", index)
+
+	//字符串替换
+	str = strings.Replace("go go hello", "go", "go语言", 1)
+	fmt.Printf("str=%v\n", str)
+
+	//字符串进行拆分
+	strArr := strings.Split("hello,world,ok", ",")
+	fmt.Printf("strArr=%v\n", strArr)
+
+	//大写，小写
+	//strings.ToLower(str)
+	//strings.ToUpper(str)
 }

@@ -73,6 +73,29 @@ func main() {
 	fmt.Printf("strArr=%v\n", strArr)
 
 	//大写，小写
-	//strings.ToLower(str)
-	//strings.ToUpper(str)
+	str = "golang Hello"
+	str = strings.ToLower(str)
+	fmt.Printf("str=%v\n", str)
+	str = strings.ToUpper(str)
+	fmt.Printf("str=%v\n", str)
+
+	//去除两边空格
+	str = " golang Hello       "
+	str = strings.TrimSpace(str)
+	fmt.Printf("str=%q\n", str)
+
+	//去除两边指定的字符
+	str = "!golello!"
+	str = strings.Trim(str, "!")
+	fmt.Printf("str=%q\n", str)
+
+	//以xx开头
+	str = "ftp://!golello!"
+	b = strings.HasPrefix(str, "ftp")
+	fmt.Printf("b=%v\n", b)
+
+	//以xx结尾
+	str = "ftp://!golello!"
+	b = strings.HasSuffix(str, "llo!")
+	fmt.Printf("b=%v\n", b)
 }

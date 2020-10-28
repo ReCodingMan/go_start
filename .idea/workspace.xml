@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f9569-cde5-4d9d-829b-21dec52958ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/go_code/defer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_code/funcdemo07/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_code/funcdemo07/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go_code/funcdemo07">
+  <component name="RunManager" selected="Go Build.go build go_code/defer">
+    <configuration name="go build go_code/defer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_start" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/go_code/defer/main.go" />
+      <package value="go_code/defer" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go_code/funcdemo07" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_start" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -83,21 +92,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go run main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="go_start" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_code/struct/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_code/defer" />
         <item itemvalue="Go Build.go build go_code/funcdemo07" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build go_code/pointerdemo" />
         <item itemvalue="Go Build.go build test1.go" />
-        <item itemvalue="Go Build.go run main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -126,34 +127,34 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="660" y="174" key="EnvironmentVariablesDialog/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1597044887097" />
-    <state width="1476" height="266" key="GridCell.Tab.0.bottom" timestamp="1603875682123">
+    <state width="1476" height="266" key="GridCell.Tab.0.bottom" timestamp="1603875947802">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875682123" />
+    <state width="1476" height="266" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875947802" />
     <state width="1350" height="231" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1597191839072" />
-    <state width="1476" height="266" key="GridCell.Tab.0.center" timestamp="1603875682122">
+    <state width="1476" height="266" key="GridCell.Tab.0.center" timestamp="1603875947802">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875682122" />
+    <state width="1476" height="266" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875947802" />
     <state width="1350" height="231" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
-    <state width="1476" height="266" key="GridCell.Tab.0.left" timestamp="1603875682121">
+    <state width="1476" height="266" key="GridCell.Tab.0.left" timestamp="1603875947801">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875682121" />
+    <state width="1476" height="266" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875947801" />
     <state width="1350" height="231" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
-    <state width="1476" height="266" key="GridCell.Tab.0.right" timestamp="1603875682122">
+    <state width="1476" height="266" key="GridCell.Tab.0.right" timestamp="1603875947802">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875682122" />
+    <state width="1476" height="266" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603875947802" />
     <state width="1350" height="231" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
     <state x="341" y="80" key="SettingsEditor" timestamp="1603849641332">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="341" y="80" key="SettingsEditor/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603849641332" />
-    <state x="439" y="29" width="746" height="924" key="find.popup" timestamp="1603866521401">
+    <state x="439" y="29" width="746" height="924" key="find.popup" timestamp="1603879497485">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state x="439" y="29" width="746" height="924" key="find.popup/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603866521401" />
+    <state x="439" y="29" width="746" height="924" key="find.popup/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603879497485" />
     <state x="658" y="136" width="783" height="576" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597043149916">
       <screen x="0" y="23" width="1680" height="954" />
     </state>

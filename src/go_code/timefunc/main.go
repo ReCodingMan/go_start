@@ -24,7 +24,7 @@ func main() {
 	now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
 
 	dateStr := fmt.Sprintf("当前年月日 %d-%d-%d %d:%d:%d \n", now.Year(),
-	now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
+		now.Month(), now.Day(), now.Hour(), now.Minute(), now.Second())
 
 	fmt.Printf("dateStr=%v", dateStr)
 
@@ -37,19 +37,17 @@ func main() {
 	fmt.Println()
 
 	//每隔0.1s打印
-	// i := 0
-	// for {
-	// 	i++
-	// 	fmt.Println(i)
-	// 	//休眠
-	// 	time.Sleep(time.Millisecond * 100)
-	// 	if i==100 {
-	// 		break
-	// 	}
-	// }
+	i := 0
+	for {
+		i++
+		fmt.Println(i)
+		//休眠
+		time.Sleep(time.Millisecond * 100)
+		if i==100 {
+			break
+		}
+	}
 
 	//Unix和UnixNano纳秒
 	fmt.Printf("unix时间戳=%v unixnano时间戳=%v", now.Unix(), now.UnixNano() )
-
-
 }

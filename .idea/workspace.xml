@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1f9569-cde5-4d9d-829b-21dec52958ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_code/timefunc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_code/timefunc/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go_code/defer">
+  <component name="RunManager" selected="Go Build.go build go_code/timefunc (1)">
     <configuration name="go build go_code/defer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_start" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -66,12 +67,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go_code/pointerdemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_code/timefunc (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_start" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_code/pointerdemo/test.go" />
-      <package value="go_code/pointerdemo" />
+      <filePath value="$PROJECT_DIR$/src/go_code/timefunc/test.go" />
+      <package value="go_code/timefunc" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_code/timefunc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_start" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go_code/timefunc/main.go" />
+      <package value="go_code/timefunc" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -83,21 +93,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_start" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_code/test/test1.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go_code/timefunc (1)" />
+        <item itemvalue="Go Build.go build go_code/timefunc" />
         <item itemvalue="Go Build.go build go_code/defer" />
         <item itemvalue="Go Build.go build go_code/funcdemo07" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build go_code/pointerdemo" />
-        <item itemvalue="Go Build.go build test1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +116,14 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="436" y="55" key="#go_build_go_code/pointerdemo/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603701793650" />
+    <state x="436" y="55" key="#go_build_go_code/timefunc" timestamp="1603952941329">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="436" y="55" key="#go_build_go_code/timefunc/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603952941329" />
+    <state x="436" y="55" key="#go_build_go_code/timefunc_(1)" timestamp="1603953952753">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="436" y="55" key="#go_build_go_code/timefunc_(1)/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603953952753" />
     <state x="464" y="63" key="#go_build_main.go" timestamp="1597044862919">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
@@ -126,25 +136,25 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="660" y="174" key="EnvironmentVariablesDialog/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1597044887097" />
-    <state width="1476" height="266" key="GridCell.Tab.0.bottom" timestamp="1603879800463">
+    <state width="1476" height="266" key="GridCell.Tab.0.bottom" timestamp="1603953953205">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603879800463" />
+    <state width="1476" height="266" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603953953205" />
     <state width="1350" height="231" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1597191839072" />
-    <state width="1476" height="266" key="GridCell.Tab.0.center" timestamp="1603879800463">
+    <state width="1476" height="266" key="GridCell.Tab.0.center" timestamp="1603953953204">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603879800463" />
+    <state width="1476" height="266" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603953953204" />
     <state width="1350" height="231" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
-    <state width="1476" height="266" key="GridCell.Tab.0.left" timestamp="1603879800462">
+    <state width="1476" height="266" key="GridCell.Tab.0.left" timestamp="1603953953203">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603879800462" />
+    <state width="1476" height="266" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603953953203" />
     <state width="1350" height="231" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
-    <state width="1476" height="266" key="GridCell.Tab.0.right" timestamp="1603879800463">
+    <state width="1476" height="266" key="GridCell.Tab.0.right" timestamp="1603953953204">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1476" height="266" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603879800463" />
+    <state width="1476" height="266" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1603953953204" />
     <state width="1350" height="231" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1597191839071" />
     <state x="341" y="80" key="SettingsEditor" timestamp="1603849641332">
       <screen x="0" y="23" width="1680" height="954" />

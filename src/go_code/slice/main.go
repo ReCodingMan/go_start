@@ -9,4 +9,12 @@ func main()  {
 	fmt.Println("slice=", slice)
 	fmt.Println("容量=", cap(slice))
 	fmt.Println("长度=", len(slice))
+
+	// 第二种方式，make
+	var slice2 []int = make([]int, 4, 10)
+	fmt.Println("slice2=", slice2)
+
+	// 第三种方式，直接定义
+	var slice3 []int = []int{1,2,3}
+	fmt.Println("slice3=", slice3)
 }

@@ -7,9 +7,7 @@ type Usb interface {
 	stop()
 }
 
-type Phone struct {
 
-}
 
 func (p Phone) start()  {
 	fmt.Println("手机开始了")
@@ -19,9 +17,7 @@ func (p Phone) stop()  {
 	fmt.Println("手机停止了")
 }
 
-type Camera struct {
-	name string
-}
+
 
 func (c Camera) start()  {
 	fmt.Println("相机开始了")
@@ -39,6 +35,14 @@ type Computer struct {
 func (c Computer) Working(usb Usb)  {
 	usb.start()
 	usb.stop()
+}
+
+type Phone struct {
+
+}
+
+type Camera struct {
+	name string
 }
 
 func main() {

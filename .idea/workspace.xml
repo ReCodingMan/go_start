@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f9569-cde5-4d9d-829b-21dec52958ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/go_code/test2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go_code/test (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build go_code" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_start" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -55,15 +56,6 @@
       <filePath value="$PROJECT_DIR$/src/go_code/test/main.go" />
       <package value="go_code/test" />
       <directory value="$PROJECT_DIR$/src/go_code" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_code/assert" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_start" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_code/assert/main.go" />
-      <package value="go_code/assert" />
-      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build go_code/test (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -93,20 +85,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_start" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go_code/test2/main.go" />
+      <package value="go_code/test2" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build go_code/assert" />
       <item itemvalue="Go Build.go build go_start/" />
       <item itemvalue="Go Build.go build go_code/test" />
       <item itemvalue="Go Build.go build go_code" />
       <item itemvalue="Go Build.go build go_code/test (1)" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build go_code/test (1)" />
         <item itemvalue="Go Build.go build go_code" />
         <item itemvalue="Go Build.go build go_code/test" />
         <item itemvalue="Go Build.go build go_start/" />
-        <item itemvalue="Go Build.go build go_code/assert" />
       </list>
     </recent_temporary>
   </component>
@@ -119,10 +120,10 @@
       <screen x="0" y="25" width="1680" height="953" />
     </state>
     <state x="592" y="438" key="#GOROOT/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785471089" />
-    <state x="306" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617785531482">
+    <state x="306" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617947204992">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
-    <state x="306" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785531482" />
+    <state x="306" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617947204992" />
     <state x="471" y="79" key="#go_build_go_code/test" timestamp="1617785489178">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
@@ -131,21 +132,37 @@
       <screen x="0" y="25" width="1680" height="953" />
     </state>
     <state x="471" y="79" key="#go_build_go_code/test_(1)/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785606481" />
-    <state width="1476" height="243" key="GridCell.Tab.0.bottom" timestamp="1617785606910">
+    <state width="1476" height="243" key="GridCell.Tab.0.bottom" timestamp="1617947276279">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
-    <state width="1476" height="243" key="GridCell.Tab.0.bottom/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785606910" />
-    <state width="1476" height="243" key="GridCell.Tab.0.center" timestamp="1617785606909">
+    <state width="1476" height="243" key="GridCell.Tab.0.bottom/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617947276279" />
+    <state width="1476" height="243" key="GridCell.Tab.0.center" timestamp="1617947276278">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
-    <state width="1476" height="243" key="GridCell.Tab.0.center/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785606909" />
-    <state width="1476" height="243" key="GridCell.Tab.0.left" timestamp="1617785606908">
+    <state width="1476" height="243" key="GridCell.Tab.0.center/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617947276278" />
+    <state width="1476" height="243" key="GridCell.Tab.0.left" timestamp="1617947276278">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
-    <state width="1476" height="243" key="GridCell.Tab.0.left/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785606908" />
-    <state width="1476" height="243" key="GridCell.Tab.0.right" timestamp="1617785606909">
+    <state width="1476" height="243" key="GridCell.Tab.0.left/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617947276278" />
+    <state width="1476" height="243" key="GridCell.Tab.0.right" timestamp="1617947276279">
       <screen x="0" y="25" width="1680" height="953" />
     </state>
-    <state width="1476" height="243" key="GridCell.Tab.0.right/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785606909" />
+    <state width="1476" height="243" key="GridCell.Tab.0.right/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617947276279" />
+    <state width="1476" height="285" key="GridCell.Tab.1.bottom" timestamp="1617785616093">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state width="1476" height="285" key="GridCell.Tab.1.bottom/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785616093" />
+    <state width="1476" height="285" key="GridCell.Tab.1.center" timestamp="1617785616093">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state width="1476" height="285" key="GridCell.Tab.1.center/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785616093" />
+    <state width="1476" height="285" key="GridCell.Tab.1.left" timestamp="1617785616093">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state width="1476" height="285" key="GridCell.Tab.1.left/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785616093" />
+    <state width="1476" height="285" key="GridCell.Tab.1.right" timestamp="1617785616093">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state width="1476" height="285" key="GridCell.Tab.1.right/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785616093" />
   </component>
 </project>

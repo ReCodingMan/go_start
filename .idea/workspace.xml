@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1f9569-cde5-4d9d-829b-21dec52958ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_code/test2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,5 +163,9 @@
       <screen x="0" y="25" width="1680" height="953" />
     </state>
     <state width="1476" height="285" key="GridCell.Tab.1.right/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1617785616093" />
+    <state x="436" y="183" width="751" height="616" key="find.popup" timestamp="1619335758751">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state x="436" y="183" width="751" height="616" key="find.popup/-1270.-1415.3440.1415/0.25.1680.953@0.25.1680.953" timestamp="1619335758751" />
   </component>
 </project>
